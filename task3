@@ -1,0 +1,23 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+
+    string line;
+
+    ifstream fin("task3.txt");
+    int n;
+    cout << "количество строк:\n";
+    cin >> n;
+    for (int i = 1; i <= n; ++i){
+        getline(fin, line);
+        {
+            cout << line << endl;
+        }
+    }
+    
+    fin.close();
+
+    return 0;
+}
