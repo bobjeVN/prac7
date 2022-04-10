@@ -8,8 +8,8 @@ using namespace std;
 int main()
 {
     ofstream object;
-    object.open("pract.txt");
-    object << "Свое сообщение";
+    object.open("task1.txt");
+    object << "мое сообщение";
     object.close();
     return 0;
 }
