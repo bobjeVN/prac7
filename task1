@@ -1,0 +1,15 @@
+#include <iostream>
+#include <ctime>
+#include <string>
+#include <windows.h>
+
+using namespace std;
+
+int main()
+{
+    ofstream object;
+    object.open("pract.txt");
+    object << "Свое сообщение";
+    object.close();
+    return 0;
+}
