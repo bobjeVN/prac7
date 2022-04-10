@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-
+system("chcp 65001");
     string line;
 
     ifstream fin("task3.txt");
