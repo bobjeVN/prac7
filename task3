@@ -21,3 +21,18 @@ int main() {
 
     return 0;
 }
+
+int main() {
+    system("chcp 65001");
+
+    int n = 1000;
+    
+    char* buffer = new char[n+1]; buffer[n]=0;
+    ifstream file("practice.txt");
+
+    file.read(buffer,n);
+    cout << buffer;
+    file.close();
+
+    return 0;
+}
